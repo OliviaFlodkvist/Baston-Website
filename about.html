@@ -7,30 +7,60 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <!--Navbar-->
-        <div class="navbar__container">
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="navbar__menu">
-                <a href="index.html" class="navbar__links">HOME</a>
-                <a href="live.html" class="navbar__links">LIVE</a>
-                <a href="music.html" class="navbar__links">MUSIC</a>
-                <a href="about.html" class="navbar__links">ABOUT</a>
-            </div>
+
+
+
+    <div class = "music__title">BASTON</div>
+
+    <!--<div class = "about__title"> ABOUT </div>-->
+    <div class = "text-img-container">
+        <div class = "about__text"><p>Baston is a recording artist and songwriter based in Stockholm, Sweden. 
+            Being part of the duo Suede & Crow Baston, Baston’s spent the last years exploring modern rap
+            with songs such as: White party, Bank account and KAYA. Inspired by Morad Jul, Bad Bunny, Bizarrapup and Stromae,
+            Baston now brings a refreshing take on rap by dedicating himself to subgenres
+            such as afrotrap, alternative reggaeton and rap with electronic elements.</p>
         </div>
+    </div>
+
+    <button id="backButton">&#8592;</button> 
+
+    <!--Navbar-->
+    <div class="about-menu-container">
+        <div class="about-menu" id="mobile-menu">
+            MENU
+        </div>
+        <div class="nav__menu">
+            <button id="close-menu2" aria-label="Close Menu">CLOSE</button>
+            <a href="index.html" class="navbar__links">HOME</a>
+            <a href="music.html" class="navbar__links">MUSIC</a>
+            <a href="/contact.html" class="navbar__links">BOOK ME</a>
+            <a href="/about.html" class="navbar__links">ABOUT</a>
+            <a href="/concert-films.html" class="navbar__links">CONCERT FILMS</a>
+        </div>
+     </div>
+
+
     <!--hero section-->
     <div class="main__about">
         <div class="main__about__img">
-            <div class="main__about__content">
-                <h1>ABOUT</h1>
-                <div class="links">
-                </div>
-            </div>
+            <video src="images/Kaan Barn VHS.mp4" autoplay loop muted id = "main__about__img"></video>
         </div>
     </div>
+
+    <div class="social__media__icons">
+        <a href="https://www.youtube.com/@suedecrowbaston661" target="_blank" id="YT__link">
+            <img src="images/YT icon gul.png" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" id="Instagram__link">
+            <img src="images/Instagram icon gul.png" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/foryou?lang=sv-SE" target="_blank" id="Tiktok__link">
+            <img src="images/Tiktok icon gul.png" alt="TikTok">
+        </a>
+    </div>
+
+
+
     <script src = "app.js"></script>
 </body>
 </html>

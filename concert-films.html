@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crow Baston</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "music__title">BASTON</div>
+    <!-- Navbar -->
+    <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <div class="navbar__menu">
+            <button id="close-menu" aria-label="Close Menu">&times;</button>
+            <a href="index.html" class="navbar__links">HOME</a>
+            <a href="music.html" class="navbar__links">MUSIC</a>
+            <a href="/contact.html" class="navbar__links">BOOK ME</a>
+            <a href="/about.html" class="navbar__links">ABOUT</a>
+            <a href="/concert-films.html" class="navbar__links">
+                CONCERT<span class="line-break">FILMS</span>
+            </a>
+
+        </div>
+    </div>
+    
+
+
+    <!-- Live section -->
+    <div class="main__concertfilms">
+        <div class="main__concertfilms__img">
+            <video src="images/Retro Video.mp4" autoplay loop muted id="main__concertfilms__img"></video>
+        </div>
+    </div>
+    
+    <div class="concertfilms__grid">
+        <div class="concertfilms__grid__one">
+            <video src="/images/Concert film 1.mp4" poster="/images/Thumbnail 132.png" id="concertfilms__video__one"> suede and crow baston</video>
+            <div class="play-button" id="play-button-one"></div>
+            <p>SUEDE AND CROW BASTON AT COLLOSSEUM</p>
+        </div>
+        <div class="concertfilms__grid__two">
+            <video src="/images/Retro Video.mp4" poster="/images/Thumbnail 13.png" id="concertfilms__video__two"></video>
+            <div class="play-button" id="play-button-two"></div>
+            <p>Suede and Crow baston at Collosseum</p>
+        </div>
+        <div class="concertfilms__grid__three">
+            <video src="/images/Retro Video.mp4" poster="/images/Thumbnail 12.png" id="concertfilms__video__three"></video>
+            <div class="play-button" id="play-button-three"></div>
+            <p>Suede and Crow baston at Collosseum</p>
+        </div>
+    </div>
+
+    <div class="video-overlay" id="video-overlay">
+        <button class="close-button" id="close-button">&times;</button>
+        <video id="enlarged-video" controls></video>
+    </div>
+
+    <div class="social__media__icons">
+        <a href="https://www.youtube.com/@suedecrowbaston661" target="_blank" id="YT__link">
+            <img src="images/YT icon gul.png" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" id="Instagram__link">
+            <img src="images/Instagram icon gul.png" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/foryou?lang=sv-SE" target="_blank" id="Tiktok__link">
+            <img src="images/Tiktok icon gul.png" alt="TikTok">
+        </a>
+    </div>
+    
+    <button id="backButton">&#8592;</button> 
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+

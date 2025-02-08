@@ -7,34 +7,108 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <!--Navbar-->
-        <div class="navbar__container">
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <div class="navbar__menu">
-                <a href="index.html" class="navbar__links">HOME</a>
-                <a href="live.html" class="navbar__links">LIVE</a>
-                <a href="music.html" class="navbar__links">MUSIC</a>
-                <a href="about.html" class="navbar__links">ABOUT</a>
-            </div>
+    <!--Navbar-->
+    <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
+        <div class="navbar__menu">
+            <button id="close-menu" aria-label="Close Menu">&times;</button>
+            <a href="index.html" class="navbar__links">HOME</a>
+            <a href="music.html" class="navbar__links">MUSIC</a>
+            <a href="/contact.html" class="navbar__links">BOOK ME</a>
+            <a href="/about.html" class="navbar__links">ABOUT</a>
+            <a href="/concert-films.html" class="navbar__links">
+                CONCERT<span class="line-break">FILMS</span>
+            </a>
+
+        </div>
+    </div>
+
+    <button id="backButton">&#8592;</button> 
+
+    <div class = "music__title">BASTON</div>
+
     <!--hero section-->
     <div class="main__music">
         <div class="main__music__img">
-            <div class="main__music__content">
-                <h1>MUSIC</h1>
-                <div class="main__music__img">
-                    <img src="images/KaanStandingPixel.jpg" alt="pic" id="main__img">
-                </div>
-                <div class="links">
-                    <a href="https://open.spotify.com/artist/6VsQQ509c2pNm1nti5HLv9">SPOTIFY</a>
-                </div>
-            </div>
+            <video src="/images/Retro Video.mp4" autoplay loop muted id="main__music__img"></video>
         </div>
     </div>
-    <script src = "app.js"></script>
+
+    <!-- Grid section -->
+    <div class="music__grid">
+        <div class="music__grid__one">
+            <a href="https://open.spotify.com/album/38jQj50WXCpFbrmfREdmJw" target="_blank" id="music__link__one">
+                <img src="/images/FARKI NE.png" alt="pic" id="music_grid_one_img">
+                <p>Farki Ne</p>
+            </a>
+        </div>
+        <div class="music__grid__two">
+            <a href="https://open.spotify.com/album/3eVFl3tniBKXLnp0lZhIKx" target="_blank" id="music__link__two">
+                <img src="/images/Oyunlar.png" alt="pic" id="music_grid_one_img">
+                <p>Oyunlar</p>
+            </a>
+        </div>
+        <div class="music__grid__three">
+            <a href="https://open.spotify.com/album/1wygHEjQXe7XCUn6neNMel" target="_blank" id="music__link__three">
+                <img src="/images/YOL BITTER.png" alt="pic" id="music_grid_one_img">
+                <p>YOL BITER, DERT BITMEZ</p>
+            </a>
+        </div>
+        <div class="music__grid__four">
+            <a href="https://open.spotify.com/album/6R6iapJtAeHCO3xXxECBiZ" target="_blank" id="music__link__four">
+                <img src="/images/Till Anna.png" alt="pic" id="music_grid_one_img">
+                <p>Till .- -. -. .-</p>
+            </a>
+        </div>
+        <div class="music__grid__five">
+            <a href="https://open.spotify.com/album/0QIITDwTz0pOx7TUk91AC2" target="_blank" id="music__link__five">
+                <img src="/images/Canta Calindi.png" alt="pic" id="music_grid_one_img">
+                <p>ÇANTA CALINDI</p>
+            </a>
+        </div>
+        <div class="music__grid__six">
+            <a href="https://open.spotify.com/album/2fO70DBa8jpdOLNpYC2Dkz" target="_blank" id="music__link__six">
+                <img src="/images/Bogota Bag.png" alt="pic" id="music_grid_one_img">
+                <p>Bogota Bag</p>
+            </a>
+        </div>
+        <div class="music__grid__seven">
+            <a href="https://open.spotify.com/album/72P8xCJCnaqi32xcc4icTO" target="_blank" id="music__link__seven">
+                <img src="/images/Punch.png" alt="pic" id="music_grid_one_img">
+                <p>Baston Studio Sessions #1 "Punch"</p>
+            </a>
+        </div>
+        <div class="music__grid__eight">
+            <a href="https://open.spotify.com/album/1HTMjOxkWj7rcoK3aoEDuD" target="_blank" id="music__link__eight">
+                <img src="/images/Sakarya flow.png" alt="pic" id="music_grid_one_img">
+                <p>SAKARYA FLOW</p>
+            </a>
+        </div>
+        <div class="music__grid__nine">
+            <a href="https://open.spotify.com/album/3DDt2o1KGpck4mkQ77h8Oq" target="_blank" id="music__link__nine">
+                <img src="/images/Son Plan.png" alt="pic" id="music_grid_one_img">
+                <p>SON PLAN - Radio Edit</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="social__media__icons">
+        <a href="https://www.youtube.com/@suedecrowbaston661" target="_blank" id="YT__link">
+            <img src="images/YT icon gul.png" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" id="Instagram__link">
+            <img src="images/Instagram icon gul.png" alt="Instagram">
+        </a>
+        <a href="https://www.tiktok.com/foryou?lang=sv-SE" target="_blank" id="Tiktok__link">
+            <img src="images/Tiktok icon gul.png" alt="TikTok">
+        </a>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
+
